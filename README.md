@@ -47,10 +47,10 @@ make tideman
 
 ## How to Run
 ### Option 1: CS50 Codespaces (recommended)
-This program is designed to run in the CS50 development environment.
 ```bash
 make tideman
 ./tideman Alice Bob Charlie
 ```
 ### Option 2: Local Compilation
-Local compilation requires manually installing and linking the CS50 library.
+This program depends on the CS50 library and is intended to be run in the CS50 development environment.  
+Running it locally requires manually installing and linking the CS50 library, which is not officially supported across platforms.
